@@ -44,7 +44,7 @@ def main():
     
     
     st.markdown('* * *')
-    st.subheader('💾Skill Set')
+    st.subheader('⚒️Skill Set')
     image = Image.open(os.path.join(filePath,'data','skill.png'))
     st.image(image)
     
