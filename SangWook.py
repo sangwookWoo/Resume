@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime
-import requests
-import json
 import os
 from PIL import Image
 
@@ -42,7 +40,7 @@ def main():
     st.markdown('- 팀원들과 **협업, 토론**을 통해 실제 서비스를 개선하고 성능을 향상시키는 경험', unsafe_allow_html = True)
     st.markdown('- 데이터파이프라인의 **스케줄과 의존도**를 이해하고, 이를 적절히 유지보수 하는 경험', unsafe_allow_html = True)
     st.markdown('- 사용자가 사용하기 가장 편리한 방식으로 **빅데이터를 정제 및 가공**하는 경험', unsafe_allow_html = True)
-    st.button('더 자세한 자기소개서 보기')
+    st.button('더 자세한 자기소개서 보기(업데이트 예정)')
     st.markdown('* * *')
     
     
