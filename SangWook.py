@@ -41,9 +41,16 @@ def main():
     st.markdown('- 데이터파이프라인의 **스케줄과 의존도**를 이해하고, 이를 적절히 유지보수 하는 경험', unsafe_allow_html = True)
     st.markdown('- 사용자가 사용하기 가장 편리한 방식으로 **빅데이터를 정제 및 가공**하는 경험', unsafe_allow_html = True)
     st.button('더 자세한 자기소개서 보기(업데이트 예정)')
+    
+    
     st.markdown('* * *')
+    st.subheader('💾Skill Set')
+    image = Image.open(os.path.join(filePath,'data','skill.png'))
+    st.image(image)
     
     
+    
+    st.markdown('* * *')
     st.subheader('💾Work Experience')
     
     st.markdown('자세한 내용은 링크를 들어가시면 볼 수 있습니다(업데이트 예정입니다!)😊')
