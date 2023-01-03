@@ -25,7 +25,7 @@ def main():
     with col2:
         st.markdown('**👨‍🎓Education**<br>- 동국대학교 경영학부(경영정보학과) 졸업예정<br>- 엔코아 플레이데이터 20기<br>Data Engineering Track(23.01~23.06)', unsafe_allow_html= True)
         st.markdown('**📞Contact**<br>**Phone** : 010-6659-6977<br>**Email** : wjddm3@naver.com', unsafe_allow_html= True)
-        st.markdown('**🌏Social**<br>**Blog** : https://dataengineerstudy.tistory.com/<br>**GitHub** : https://github.com/sangwookWoo', unsafe_allow_html=True)
+        st.markdown('**🌏Social**<br>**Blog** : https://dataengineerstudy.tistory.com<br>**GitHub** : https://github.com/sangwookWoo', unsafe_allow_html=True)
         st.markdown('**👔Career**<br>**- 데이터누리**<br>22.04 ~ 22.12(8개월, 데이터비즈팀, 인턴)<br>**- 서울산업진흥원**<br>21.07 ~ 22.12(6개월, 창업육성팀, 학생인턴)', unsafe_allow_html= True)
     st.markdown('* * *')
     
