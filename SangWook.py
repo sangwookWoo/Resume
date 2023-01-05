@@ -79,6 +79,11 @@ def main():
     st.markdown('📖Blog : 작성 예정<br>🔍Website : https://sangwookwoo-disaster2-web-news-qp8onx.streamlit.app/<br>💻GitHub : 작성 예정', unsafe_allow_html= True)
 
     st.markdown('* * *')
+    st.subheader('📙Certificate')
+    certificate = pd.read_csv(os.path.join(filePath, 'data', 'certificate.csv'))
+    st.dataframe(certificate)
+    
+    st.markdown('* * *')
     st.subheader('😤앞으로 목표')
     st.markdown('1. 기록해서 이 웹페이지를 완성하기', unsafe_allow_html= True)
     st.markdown('2. 플레이데이터에서 배운 내용들을 모두 이 페이지와 블로그에 담기', unsafe_allow_html= True)
